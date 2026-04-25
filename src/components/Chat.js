@@ -1,8 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './Chat.css';
 
-// TODO: Replace with your actual API endpoint
-const API_ENDPOINT = 'https://your-api-endpoint.com/chat';
+const API_ENDPOINT = 'https://chatbot-api-22796269954.us-central1.run.app/chat';
 
 function Chat({ onLogout }) {
   const [messages, setMessages] = useState([
